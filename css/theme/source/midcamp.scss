@@ -45,12 +45,6 @@ $light-aqua: #6CD2EA;
 
 $red: #DF1F26;
 
-$accessible_background: #197f9f;
-
-// Background of the presentation
-//$backgroundColor: $light-aqua;
-$backgroundColor: $accessible_background;
-
 // Primary/body text
 $mainFont: 'Raleway', 'Verdana', 'Lucida Grande', 'Gill Sans', 'Arial', 'Helvetica', sans-serif;
 $mainFontSize: 36px;
@@ -76,7 +70,7 @@ $selectionColor: $light-aqua;
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient( $aqua, $light-aqua );
+  @include radial-gradient( $aqua, #00658a );
 
   &:before {
     content: '';
