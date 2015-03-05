@@ -161,23 +161,28 @@ body {
 .reveal .slide-number {
   color: #18545E; }
 
-.top-bar {
-  width: 90%;
+footer {
+  position: absolute;
+  bottom: 50px;
+  width: 100%; }
+
+.bottom-bar {
+  width: 85%;
   margin: 0 auto;
   vertical-align: bottom;
   position: relative;
   z-index: 500; }
-  .top-bar:after {
+  .bottom-bar:after {
     content: '';
     border-bottom: 1px solid #FCFCFC;
     display: block;
     position: absolute;
     width: 100%;
-    top: 120px;
+    top: auto;
     right: 0;
     bottom: auto;
     left: 0; }
-  .midwest .top-bar {
+  .midwest .bottom-bar {
     display: none; }
 
 [role="branding"] {
