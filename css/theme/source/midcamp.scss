@@ -45,8 +45,11 @@ $light-aqua: #6CD2EA;
 
 $red: #DF1F26;
 
+$accessible_background: #197f9f;
+
 // Background of the presentation
-$backgroundColor: $light-aqua;
+//$backgroundColor: $light-aqua;
+$backgroundColor: $accessible_background;
 
 // Primary/body text
 $mainFont: 'Raleway', 'Verdana', 'Lucida Grande', 'Gill Sans', 'Arial', 'Helvetica', sans-serif;
@@ -74,10 +77,10 @@ $selectionColor: $light-aqua;
 // Background generator
 @mixin bodyBackground() {
   @include radial-gradient( $aqua, $light-aqua );
-  
+
   &:before {
     content: '';
-    background-image: url('../../lib/image/background.jpg');
+    //background-image: url('../../lib/image/background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,14 +91,14 @@ $selectionColor: $light-aqua;
     bottom: 0;
     left: 0;
     z-index: -1;
-    
+
     .midwest & {
       background-image: url('../../lib/image/background__midwest.jpg');
     }
   }
 }
 
-// Theme template ------------------------------ 
+// Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
 
