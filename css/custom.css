@@ -1,0 +1,72 @@
+.reveal .fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+.fa-smile-o {
+  color: #0c0;
+}
+.fa-frown-o {
+  color: #c00;
+}
+.fa-meh-o {
+  color: #cc0;
+}
+
+.fa-smile-o.big {
+  font-size: 1.5em;
+}
+
+img {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.light h1,
+.light h2,
+.light h3 {
+  color: #fff !important;
+}
+
+h1 {
+  line-height: 1em !important;
+}
+
+h2.subtext {
+  height: 0;
+  position: relative;
+  top: -0.3em;
+}
+
+.config-table {
+  text-align: center;
+  width: 100%;
+}
+.config-table table {
+  border-style: none;
+  border-collapse: collapse;
+  margin: 0 auto;
+  position: relative;
+  top: -5em;
+}
+.config-table thead th {
+  height: 5em;
+  padding: 10px 0;
+}
+.config-table thead th div {
+  position: relative;
+  top: 40%;
+  width: 3em;
+}
+.config-table thead th div span {
+  display: inline-block;
+  -webkit-transform: rotate(-60deg);
+  width: 5em;
+}
+.config-table tbody th,
+.config-table tbody td {
+  border: 1px #999 solid;
+  padding: 10px;
+}
+.config-table tbody td {
+  text-align: center;
+}
